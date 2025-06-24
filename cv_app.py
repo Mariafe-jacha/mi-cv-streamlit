@@ -57,8 +57,3 @@ st.write("- Arte")
 st.write("---")
 st.caption("Aplicación creada con ❤️ usando Streamlit.")
 '''
-
-with open("cv_app.py", "w") as f:
-    f.write(cv_code)
-
-print("✅ El archivo 'cv_app.py' ha sido creado correctamente.")

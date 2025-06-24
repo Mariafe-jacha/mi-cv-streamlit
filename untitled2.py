@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1ui_0fUAbcjcgiAtTn9BRtwiUFO2JXeOe
 """
 
-cv_code = '''
+code = """
 import streamlit as st
 
 st.set_page_config(page_title="CV de María Fe", page_icon="📄")
@@ -56,9 +56,9 @@ st.write("- Arte")
 
 st.write("---")
 st.caption("Aplicación creada con ❤️ usando Streamlit.")
-'''
+"""
 
 with open("cv_app.py", "w") as f:
-    f.write(cv_code)
+    f.write(code)
 
-print("✅ El archivo 'cv_app.py' ha sido creado correctamente.")
+print("✅ Tu archivo 'cv_app.py' ha sido creado con éxito. Ahora puedes descargarlo desde la pestaña Archivos 📁.")
